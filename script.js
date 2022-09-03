@@ -97,7 +97,7 @@ btnHold.addEventListener('click', function () {
         .classList.remove('player--active');
       cnt_1 = clicks[activePlayer];
       alert(
-        `player--${activePlayer} has won the match in ${cnt_1} no of clicks`
+        `player--${activePlayer+1} has won the match in ${cnt_1} no of clicks`
       );
     } else {
       switchPlayer();
